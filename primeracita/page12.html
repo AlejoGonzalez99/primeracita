@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página 12</title>
+  <link rel="stylesheet" href="styles/style_page12.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Righteous&family=Sirin+Stencil&family=Squada+One&family=Zen+Tokyo+Zoo&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="index.html" id="inicio">Volver al principio</a>
+    <a href="sobre.html" id="sobre">Sobre "Primera Cita"</a>
+  </header>
+  <main class="sect">
+    <img id="bolsa2" src="imgs/bolsa2.png" alt="Bolsa de regalo fondo">
+    <section id="p18">
+      <a class="oculto" href="page13.html">Nunca había agarrado una Barbie antes. La caja está gastada en los bordes y
+        el plástico traslúcido ya está abollado de ir en la bolsa. Rubia, cada pelo del mismo largo que el de al lado.
+        Maquillada por la perpetuidad como
+        muchas querrían estar, flaca y sin hambre y una sonrisa que no necesita disimular. No tiene la preocupación de
+        salir bien en cualquier foto, no tiene un mal ángulo que esconder ni un mal día que la castigue. Me mira desde
+        adentro de esa caja que va a ir directo
+        a la basura. No como ella. Ella es para siempre. Y yo la envidio. Quiero meterme en esa caja con ella para que
+        me saquen con la
+        felicidad que solo un regalo puede dar y me lleven con los demás juguetes para siempre.</a>
+    </section>
+    <img id="bolsa1" src="imgs/bolsa1.png" alt="Bolsa de regalo">
+  </main>
+  <footer></footer>
+  <div id="page-bottom"></div>
+</body>
+<script>
+  window.onload = (event) => {
+    let pageBottom = document.querySelector("#page-bottom")
+    pageBottom.scrollIntoView({ block: "end" })
+  };
+  window.scrollTo(0, document.body.scrollHeight);
+</script>
+
+</html>

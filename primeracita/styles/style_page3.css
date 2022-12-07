@@ -1,0 +1,64 @@
+/* - - - - - - - - - - - - - - - - - - - - GENERAL - - - - - - - - - - - - - - - - - - - - */
+
+body {
+    background-color: #000000;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    text-align: center;
+    margin-top: 1%;
+}
+
+#inicio {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size:large;
+    font-family: 'Righteous', cursive;
+}
+
+#sobre {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size:large;
+    font-family: 'Righteous', cursive;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - PÁGINA 3 - - - - - - - - - - - - - - - - - - - - */
+
+#p4 {
+    max-width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#celular1 {
+    position: relative;
+    background-image: url(../imgs/celular1.png);
+    height: 730px;
+    width: 400px;
+    margin: 5% 35%;
+}
+
+#enviar {
+    position: absolute;
+    right: 27%;
+    width: 14%;
+    bottom: 10%;
+    right: 8%;
+    transition: 2s ease-out 100ms;
+}
+
+#enviar:hover {
+    width: 14.5%;
+}

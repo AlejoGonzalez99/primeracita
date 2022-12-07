@@ -1,0 +1,81 @@
+/* - - - - - - - - - - - - - - - - - - - - GENERAL - - - - - - - - - - - - - - - - - - - - */
+
+body {
+    background-color: #000000;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    background-color: #000000;
+
+}
+
+main {
+    text-align: center;
+}
+
+#inicio {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+    font-family: 'Righteous', cursive;
+}
+
+#sobre {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+    font-family: 'Righteous', cursive;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - PÁGINA 10 - - - - - - - - - - - - - - - - - - - - */
+
+.sect {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#audioascensor {
+    padding: 0;
+    border: 0;
+}
+
+#reja {
+    position: fixed;
+    width: 99%;
+    margin: 1% 0.5% auto 0.5%;
+}
+
+#manija {
+    position: fixed;
+    width: 4%;
+    left: 20.5%;
+    top: 43%;
+    margin: 1% 0.5% auto 0.5%;
+    transition: 2s ease-out 100ms;
+}
+
+#manija:hover {
+    width: 4.2%;
+}
+
+#pisos {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    margin: 1% 0.5% auto 0.5%;
+}

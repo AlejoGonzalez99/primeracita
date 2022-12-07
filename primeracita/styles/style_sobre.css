@@ -1,0 +1,41 @@
+/* - - - - - - - - - - - - - - - - - - - - SOBRE - - - - - - - - - - - - - - - - - - - - */
+
+
+body {
+    background-color: #000000;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    text-align: center;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulos {
+    font-size: 300%;
+    font-weight: normal;
+    font-family: 'Righteous', cursive;
+    color:rgb(255, 236, 131);
+}
+
+#inicio {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size:large;
+    font-family: 'Righteous', cursive;
+}

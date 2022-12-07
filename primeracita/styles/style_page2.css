@@ -1,0 +1,91 @@
+/* - - - - - - - - - - - - - - - - - - - - GENERAL - - - - - - - - - - - - - - - - - - - - */
+
+body {
+    background-color: #000000;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    text-align: center;
+    margin-top: 1%;
+}
+
+#inicio {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+    font-family: 'Righteous', cursive;
+}
+
+#sobre {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+    font-family: 'Righteous', cursive;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - PÁGINA 2 - - - - - - - - - - - - - - - - - - - - */
+
+.sect {
+    position: relative;
+    display: flex;
+}
+
+#cielo {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#sol {
+    position: absolute;
+    width: 30%;
+    margin-top: 20%;
+    right: 30%;
+    transition: 6s ease-out 100ms;
+}
+
+#sol:hover {
+    right: 35%;
+}
+
+#nube1 {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    margin-top: 19%;
+    transition: 3s ease-out 100ms;
+}
+
+#nube1:hover {
+    width: 52%;
+}
+
+#nube2 {
+    position: absolute;
+    width: 30%;
+    margin-top: 30%;
+    right: 0;
+    transition: 3s ease-out 100ms;
+}
+
+#nube2:hover {
+    width: 32%;
+}
+
+#p3 {
+    position: absolute;
+    margin: 3% 10%;
+    max-width: 80%;
+    color: #000000;
+}

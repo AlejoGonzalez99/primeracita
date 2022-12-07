@@ -1,0 +1,56 @@
+/* - - - - - - - - - - - - - - - - - - - - GENERAL - - - - - - - - - - - - - - - - - - - - */
+
+body {
+    background-color: #000000;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    text-align: center;
+    margin-top: 1%;
+}
+
+#inicio {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size:large;
+    font-family: 'Righteous', cursive;
+}
+
+#sobre {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size:large;
+    font-family: 'Righteous', cursive;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - PÁGINA 6 - - - - - - - - - - - - - - - - - - - - */
+
+#estatua {
+    width: 100%;
+}
+
+#p7 {
+    max-width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+#p8 {
+    max-width: 60%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}

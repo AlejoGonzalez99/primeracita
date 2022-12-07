@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página 10</title>
+  <link rel="stylesheet" href="styles/style_page10.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Righteous&family=Sirin+Stencil&family=Squada+One&family=Zen+Tokyo+Zoo&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="index.html" id="inicio">Volver al principio</a>
+    <section id="audioascensor">
+      <audio controls autoplay>
+        <source src="sounds/ascensor.mp3" type="audio/mp3">
+      </audio>
+    </section>
+    <a href="sobre.html" id="sobre">Sobre "Primera Cita"</a>
+  </header>
+  <main>
+    <section class="sect">
+      <img id="pisos" src="imgs/pisos.jpg" alt="Scroll de pisos del edificio">
+      <section>
+        <img id="reja" src="imgs/reja.png" alt="Reja e interior del ascensor">
+        <a href="page11.html"><img id="manija" src="imgs/manija.png" alt="Manija de la reja"></a>
+      </section>
+    </section>
+  </main>
+  <footer></footer>
+  <div id="page-bottom"></div>
+</body>
+<script>
+  window.onload = (event) => {
+    let pageBottom = document.querySelector("#page-bottom")
+    pageBottom.scrollIntoView({ block: "end" })
+  };
+  window.scrollTo(0, document.body.scrollHeight);
+</script>
+
+</html>

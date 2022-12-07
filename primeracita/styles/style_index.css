@@ -1,0 +1,65 @@
+/* - - - - - - - - - - - - - - - - - - - - INICIO - - - - - - - - - - - - - - - - - - - - */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #000000;
+    color:antiquewhite;
+}
+
+main {
+    text-align: center;
+    margin-top: 1%;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#fondo_inicio {
+    width: 100%;
+}
+
+#tit_pre {
+    position: absolute;
+    width: 49%;
+    right: 4%;
+    top: 4%;
+    opacity: 0;
+    transition: 2s ease-out 100ms;
+}
+
+#tit_pre:hover {
+    opacity: 1;
+}
+
+#hover_inicio {
+    position: absolute;
+    width: 14%;
+    left: 6.5%;
+    bottom: 6.5%;
+    opacity:0;
+    transition: 1s ease-out 100ms;
+}
+
+#hover_inicio:hover {
+    opacity: 1;
+}
+
+#sobre {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size:large;
+    font-family: 'Righteous', cursive;
+}
